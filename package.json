@@ -25,8 +25,9 @@
     "redux": "^3.7.2"
   },
   "scripts": {
-    "watch": "webpack-dev-server --hot",
-    "test": "jest"
+    "dev": "webpack-dev-server --hot",
+    "test": "jest",
+    "prod": "webpack -p"
   },
   "jest": {
     "transform": {
